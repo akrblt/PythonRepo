@@ -5,7 +5,7 @@
 # calculatrice base , 4 operation
 
 def addition (x,y):
-    print("addition : " +(x+y))
+    pass
 
 
 print("List operation : \n 1: Addition  \n 2: Divise \n 3:multiple \n 4:soustraction  \n pour QUITTER : Q ")
