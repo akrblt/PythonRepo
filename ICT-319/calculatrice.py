@@ -4,6 +4,10 @@
 # version : 0.1
 # calculatrice base , 4 operation
 
+def addition (x,y):
+    print("addition : " +(x+y))
+
+
 print("List operation : \n 1: Addition  \n 2: Divise \n 3:multiple \n 4:soustraction  \n pour QUITTER : Q ")
 
 while True:
@@ -13,6 +17,7 @@ while True:
 
     match operation:
         case "1":
+            addition(num1,num2)
             print(f" operation: Addition  {num1} + {num2} = {num1+num2} ")
         case "2":
             print(f" operation: Divise  {num1} / {num2} = {num1 / num2} ")
