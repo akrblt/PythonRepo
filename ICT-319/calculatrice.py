@@ -5,7 +5,21 @@
 # calculatrice base , 4 operation
 
 def addition (x,y):
-    pass
+    return x+y
+
+def subtraction(x,y):
+    return x-y
+
+def multiplication(x,y):
+    return x*y
+
+def division(x,y):
+    if y==0:
+        print("division by zero set impossible. Vous pouvez saisir different numéro." )
+    else:
+        return x/y
+
+
 
 
 print("List operation : \n 1: Addition  \n 2: Divise \n 3:multiple \n 4:soustraction  \n pour QUITTER : Q ")
@@ -18,13 +32,13 @@ while True:
     match operation:
         case "1":
             addition(num1,num2)
-            print(f" operation: Addition  {num1} + {num2} = {num1+num2} ")
+            print(f" operation: Addition  {num1} + {num2} = {addition(num1,num2)} ")
         case "2":
-            print(f" operation: Divise  {num1} / {num2} = {num1 / num2} ")
+            print(f" operation: Divise  {num1} / {num2} = {division(num1,num2)} ")
         case "3":
-            print(f" operation: Multiple  {num1} * {num2} = {num1*num2} ")
+            print(f" operation: Multiple  {num1} * {num2} = {subtraction(num1,num2)} ")
         case "4":
-            print(f" operation: Soustraction  {num1} - {num2} = {num1 - num2} ")
+            print(f" operation: Soustraction  {num1} - {num2} = {subtraction(num1,num2)} ")
         case "Q" :
             print(" --------------------QUITTER -------------------")
             quit()
