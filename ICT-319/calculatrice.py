@@ -27,7 +27,7 @@ print("List operation : \n 1: Addition  \n 2: Divise \n 3:multiple \n 4:soustrac
 while True:
     operation=input("Saisir operation. Vous pouvez trouver le list d'operation en haut: ")
     num1=int(input("saisir le numero 1 : "))
-    num2=int(input("Saisir le numero 2 : "))
+    num2=int(input("Saisir le   numero 2 : "))
 
     match operation:
         case "1":
