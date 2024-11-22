@@ -31,7 +31,7 @@ while True:
 
     match operation:
         case "1":
-            addition(num1,num2)
+
             print(f" operation: Addition  {num1} + {num2} = {addition(num1,num2)} ")
         case "2":
             print(f" operation: Divise  {num1} / {num2} = {division(num1,num2)} ")
