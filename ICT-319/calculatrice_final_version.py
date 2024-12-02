@@ -42,7 +42,7 @@ def calculate(ope1,oper,ope2):
     return res
 
 def display_result(op1,ope,op2,res):
-    print(f" {op1} {ope} {op2} = {res}")
+    print(f" {op1} {ope} {op2} = {res} ")
 
 
 
